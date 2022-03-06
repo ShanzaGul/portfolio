@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@600&display=swap');
 
 .App{
-    background-color: "#f3d0d2";
     font-family: 'Montserrat' , serif;
     }
 
@@ -23,18 +22,11 @@
       }
 
 .bggg{
-    background: rgb(251,135,118);
-background: -moz-linear-gradient(90deg, rgba(251,135,118,1) 0%, rgba(246,131,107,1) 31%, rgba(247,156,138,1) 60%, rgba(243,208,210,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(251,135,118,1) 0%, rgba(246,131,107,1) 31%, rgba(247,156,138,1) 60%, rgba(243,208,210,1) 100%);
-background: linear-gradient(90deg, rgba(251,135,118,1) 0%, rgba(246,131,107,1) 31%, rgba(247,156,138,1) 60%, rgba(243,208,210,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fb8776",endColorstr="#f3d0d2",GradientType=1);}
-
-
-a {
-    color: maroon !important;
-}
-
-
+    background: rgb(63,59,200);
+background: -moz-linear-gradient(90deg, rgba(63,59,200,1) 0%, rgba(60,85,171,1) 50%, rgba(0,134,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(63,59,200,1) 0%, rgba(60,85,171,1) 50%, rgba(0,134,255,1) 100%);
+background: linear-gradient(90deg, rgba(63,59,200,1) 0%, rgba(60,85,171,1) 50%, rgba(0,134,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f3bc8",endColorstr="#0086ff",GradientType=1);}
 a:hover{
     text-decoration: none !important;
 }

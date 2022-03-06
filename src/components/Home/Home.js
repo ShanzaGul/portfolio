@@ -1,16 +1,16 @@
 import React from 'react'
-import {Container, Image,Row} from 'react-bootstrap';
+import {Container, Image,Row, Button} from 'react-bootstrap';
 import MainCard from './MainCard'
-import logo from '../images/homebg.png'
+import logo from '../../images/hero.png'
 import MainCardHeading from './MainCardHeading'
 import { Spring,config } from "react-spring/renderprops";
-import VisibilitySensor from "./VisibilitySensor";
+import VisibilitySensor from "../VisibilitySensor";
 import MainServiceHeading from './MainServiceHeading';
 import MainCardServices from './MainCardServices';
 
 export default function Home() {
     return (
-        <div style={{backgroundColor:'#c85a53'}}>
+        <div>
         <Container fluid>
         <Spring
             from={{ opacity: 0 }}
@@ -32,14 +32,16 @@ export default function Home() {
             delay={1500}>
             {props => 
             <div style={props}>
-                <Row className="justify-content-center pb-5" style={{fontSize: "15vw", fontWeight: "600", color:'white',fontFamily: 'Montserrat'}}>
-                    <div>
-                         <h6>Hi, I am Shanza Gul</h6>
+                <Row className="justify-content-center" style={{color:'#0E185F',fontFamily: 'Montserrat'}}>
+                    <div style={{display:"flex", flexDirection:"row"}}>
+                         <h4 style={{fontWeight:"600"}}>Hi, I am Shanza Gul</h4>
                     </div>
                 </Row>
                 <Row className="justify-content-center text-center pb-5 text-wrap">
-                    <div style={{fontWeight: "600", color: 'silver',fontFamily: 'Montserrat' ,width:"50rem"}}>
+                    <div style={{fontWeight: "600", color: '#2FA4FF',fontFamily: 'Montserrat' ,width:"50rem"}}>
                         <h1>I design and develop good looking user interfaces and craft enriching user experience</h1>
+                        <a href="mailto:gulshanza77@gmail.com?subject=Hello&body=This is my message">
+                            <Button style={{backgroundColor:"#0E185F", borderColor:"white"}}>Contact Me !</Button></a>
                     </div>
                 </Row>
             </div>}

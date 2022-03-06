@@ -1,9 +1,9 @@
 import React from 'react'
-import ServiceCard from './CardServices'
+import ServiceCard from '../CardServices'
 import {Row} from 'react-bootstrap';
-import img from '../images/ui.svg'
-import img1 from '../images/development.svg'
-import img2 from '../images/web.svg'
+import img from '../../images/ui-design.png'
+import img1 from '../../images/fd.png'
+import img2 from '../../images/wd.png'
 
 
 export default function MainCardServices() {

@@ -1,14 +1,14 @@
 import React from 'react'
 import {Row} from 'react-bootstrap';
 import { Spring} from "react-spring/renderprops";
-import VisibilitySensor from "./VisibilitySensor";
+import VisibilitySensor from "../VisibilitySensor";
 const centeredStyles = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
     flexDirection: "column",
     height: "100%",
-    color : "#fa6e52"
+    color : "white"
   };
 export default function MainServiceHeading() {
     return (
@@ -26,7 +26,7 @@ export default function MainServiceHeading() {
               }}
             >
               {(props) => (
-                <h1 style={{ fontSize:"74px", textAlign:"center", backgroundColor: "#f3d0d2",
+                <h1 style={{ fontSize:"74px", textAlign:"center", backgroundColor: "rgba(47, 164, 255, 0.7)",
                   padding: "16px 32px",...props }}>My Services</h1>
               )}
             </Spring>

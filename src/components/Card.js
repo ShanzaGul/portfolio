@@ -17,7 +17,7 @@ export default function card({src,percentage}) {
                         >
                             {(props) => (
                            <div className="p-2">
-                            <Card className="p-2" style={{ color:"#f6836b",width: '8rem', ...props}} >
+                            <Card className="p-2" style={{ color:"white", backgroundColor:"rgba(47, 164, 255, 0.7)", width: '8rem', ...props}} >
                                     <Card.Img variant="top" src={src} style={{height:"70px", width:"auto"}}/>
                                     
                                         <Card.Text className="text-center p-2 font-weight-bold">
